@@ -1,8 +1,12 @@
-<script>
-	let domains = ['www.google.com']
-	let domain = domains[Math.floor(Math.random() * domains.length)]
-	let url = document.location
-	let str = url.toString()
-	let newurl = `http://${domain}`
-	window.location.href = newurl
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirect</title>
+</head>
+<body>
+  <script>
+    window.location.href = "https://www.google.com";
+  </script>
+</body>
+</html>
